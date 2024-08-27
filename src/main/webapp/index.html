@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Person Database</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+}
+
+a {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+input[type=submit] {
+    width: 200px;
+    padding: 10px;
+    background-color: #5bc0de;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+}
+
+input[type=submit]:hover {
+    background-color: #31b0d5;
+}
+</style>
+</head>
+<body>
+
+    <h1 style="color: #333;">Person Database</h1>
+    <a href="add.html">Add</a>
+    <a href="update.html">Update</a>
+    <a href="delete.html">Delete</a>
+    <a href="fetch.html">Fetch</a>
+    <form action="selectAll">
+        <input type="submit" value="All Data">
+    </form>
+
+</body>
+</html>
